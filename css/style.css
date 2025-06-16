@@ -299,7 +299,12 @@ button:hover {
 /*-- footer --*/
 
 #footer {
-  background-color: var(--clr-4);
+  /* background-color: var(--clr-4); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url(../images/foot.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #footer-grid {
